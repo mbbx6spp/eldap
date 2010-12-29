@@ -1,4 +1,5 @@
 *.beam
+*.app
 *.asn1db
 src/ELDAPv3.hrl
 src/ELDAPv3.erl
