@@ -1,7 +1,7 @@
 
 all:
-	(cd src;$(MAKE))
+	(pushd src;$(MAKE); popd)
 
 clean:
-	(cd src;$(MAKE) clean)
+	(pushd src;$(MAKE) clean; popd)
 
