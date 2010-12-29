@@ -1,0 +1,12 @@
+{application, eldap,
+ [
+  {description, "Erlang client library for accessing LDAPv3 directory services."},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { eldap_app, []}},
+  {env, []}
+ ]}.
